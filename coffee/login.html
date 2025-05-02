@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-compatible" content="IE=edge" />
+<link rel="icons" href="icons/brand.png" />
+<style>
+   .bd{
+       color: rgb(237, 69, 8);
+       background-color: rgb(250, 250, 249);
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 16px;
+   }
+
+</style>
+</head>
+<body>
+    <fieldset style="background-color: rgb(0, 255, 221);">
+     <legend class="bd">personnale information</legend>
+<label for="nm">first name :</label><br>
+<input type="text" id="nm" placeholder="first name"><br>
+<label for="lm">last name :</label><br>
+<input type="text" id="lm" placeholder="last name"><br>
+<label for="ps">password :</label><br>
+<input type="password" id="ps" placeholder="password" required><br>
+<label for="em">your email :</label><br>
+<input type="email" id="em" placeholder="@gmail.com" required><br>
+<label for="nmb">number phone :</label><br>
+<input type="tel" id="nmb" placeholder="number phone"><br>
+    </fieldset>
+<fieldset style="background-color: rgb(0, 255, 221);" >
+<legend class="bd">aditionnal information</legend>
+<label for="birth" class="tr">your birthday :</label><br>
+    <select name="day" id="birth">
+      <option value="one">1</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+      <option value="for">4</option>
+      <option value="five">5</option>
+      <option value="six">6</option>
+      <option value="seven">7</option>
+      <option value="eight">8</option>
+      <option value="nine">9</option>
+      <option value="ten">10</option>
+      <option value="eleven">11</option>
+      <option value="twelev">12</option>
+      <option value="terting">13</option>
+      <option value="ferting">14</option>
+      <option value="fifting">15</option>
+      <option value="sexting">16</option>
+      <option value="seventing">17</option>
+      <option value="eighting">18</option>
+      <option value="nineting">19</option>
+      <option value="twenty">20</option>
+      <option value="twenty one">21</option>
+      <option value="twenty two">22</option>
+      <option value="twenty three">23</option>
+      <option value="twenty for">24</option>
+      <option value="twenty five">25</option>
+      <option value="twenty sex">26</option>
+      <option value="twenty seven">27</option>
+      <option value="twenty eight">28</option>
+      <option value="twenty nine">29</option>
+      <option value="therty">30</option>
+      <option value="therty one">31</option>
+    </select>
+    <select name="month" id="birth">
+      <optgroup label="winter">
+        <option value="january">jan</option>
+        <option value="february">feb</option>
+        <option value="march">mar</option>
+      </optgroup>
+      <optgroup label="spring">
+        <option value="april">apr</option>
+        <option value="may">may</option>
+        <option value="june">jun</option>
+      </optgroup>
+      <optgroup label="summer">
+        <option value="july">jul</option>
+        <option value="august">aug</option>
+        <option value="september">sep</option>
+      </optgroup>
+      <optgroup label="autumn">
+        <option value="october">oct</option>
+        <option value="nevember">nev</option>
+        <option value="december">dec</option>
+      </optgroup>
+    </select>
+    <select name="day" id="birth">
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+        <option value="1997">1997</option>
+        <option value="1998">1998</option>
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+    </select><br>
+<label for="coun">your country :</label><br>
+<select name="country" id="country">
+  <optgroup label="afrique">
+   <option value="mrc">morocco</option>
+   <option value="egy">egypt</option>
+   <option value="sad Ar">saudi arabia</option>
+   <option value="dz">algeria</option>
+   <option value="bhrn">bahrain</option>
+   <option value="lib">libya</option>
+   <option value="botswana">botswana</option>
+   <option value="cmrn">cameroon</option>
+   <option value="chad">chad</option>
+   <option value="congo">congo</option>
+   <option value="ghana">ghana</option>
+   <option value="angl">angola</option>
+  </optgroup>
+ </select><br>
+ <label >your gender :</label><br>
+<h>Femmal</h><input type="radio" name="gender">
+<h>Male</h><input type="radio" name="gender"><br>
+<label for="hobby"> your favorite hobby</label><br>
+<input list="hobby" name="your hobby" id="hobby" placeholder="your favorite hobby">
+      <datalist id="hobby">
+        <option value="football">
+        <option value="basketball">
+        <option value="tennis">
+        <option value="swimming">
+        <option value="bodybuilding">
+        <option value="handball">
+        <option value="reading">
+        <option value="the drawing">
+        <option value="running">
+        <option value="boxing">
+      </datalist> 
+
+</fieldset>
+<fieldset style="background-color: rgb(0, 255, 221);">
+  <legend class="bd" >files</legend>
+  <input type="file" multiple>
+</fieldset>
+<fieldset style="background-color: rgb(0, 255, 221);">
+  <legend class="bd">feedback</legend>
+  <label for="fb">feedback</label><br>
+  <textarea name="feedback" id="fb" cols="30" rows="5" placeholder="feedback"></textarea>
+</fieldset>
+<br>
+<input type="submit" value="sing-up"><input type="reset">
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+<br><br>
+
+<a href="/index.html">HOME</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
